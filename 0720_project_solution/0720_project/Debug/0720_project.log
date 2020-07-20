@@ -1,0 +1,2 @@
+﻿mk_function.obj : error LNK2005: _main already defined in 0720_project.obj
+C:\dev\c_exercise\0720_project_solution\Debug\0720_project.exe : fatal error LNK1169: one or more multiply defined symbols found
