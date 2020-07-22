@@ -1,0 +1,8 @@
+﻿  lecture5_project2.c
+C:\dev\c_inflearn\c_inflearn\lecture5_project_solution\lecture5_project2\lecture5_project2.c(9,14): warning C4474: 'scanf' : too many arguments passed for format string
+C:\dev\c_inflearn\c_inflearn\lecture5_project_solution\lecture5_project2\lecture5_project2.c(9,14): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\dev\c_inflearn\c_inflearn\lecture5_project_solution\lecture5_project2\lecture5_project2.c(12,14): warning C4474: 'scanf' : too many arguments passed for format string
+C:\dev\c_inflearn\c_inflearn\lecture5_project_solution\lecture5_project2\lecture5_project2.c(12,14): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\dev\c_inflearn\c_inflearn\lecture5_project_solution\lecture5_project2\lecture5_project2.c(15,14): warning C4474: 'scanf' : too many arguments passed for format string
+C:\dev\c_inflearn\c_inflearn\lecture5_project_solution\lecture5_project2\lecture5_project2.c(15,14): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  lecture5_project2.vcxproj -> C:\dev\c_inflearn\c_inflearn\lecture5_project_solution\Debug\lecture5_project2.exe
