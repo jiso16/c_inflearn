@@ -1,0 +1,3 @@
+﻿  Project3.c
+C:\dev\c_inflearn\c_inflearn\0801_lectrue10_solution\Project3\Project3.c(15,1): warning C4090: 'initializing': different 'const' qualifiers
+  Project3.vcxproj -> C:\dev\c_inflearn\c_inflearn\0801_lectrue10_solution\Debug\Project3.exe
