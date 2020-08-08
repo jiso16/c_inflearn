@@ -1,4 +1,0 @@
-﻿  Project2.c
-C:\dev\c_inflearn\c_inflearn\lecture7_solution\Project2\Project2.c(14,16): warning C4047: '=': 'char' differs in levels of indirection from 'int (__cdecl *)(int)'
-C:\dev\c_inflearn\c_inflearn\lecture7_solution\Project2\Project2.c(18,16): warning C4047: '=': 'char' differs in levels of indirection from 'int (__cdecl *)(int)'
-  Project2.vcxproj -> C:\dev\c_inflearn\c_inflearn\lecture7_solution\Debug\Project2.exe
