@@ -1,20 +1,37 @@
-// Project2.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#define _CTR_SECURE_NO_WARNINGS
 
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	const const const int n = 7; // = const int n = 7;
+
+	typedef const int zip;
+	const zip q = 9; // = const const int zip;
+
+	//volatile : 최적화 하지 않음
+
+	volatile int vi = 1;
+	volatile int* pvi = &vi;
+
+	int i1 = vi;
+
+	int i2 = vi;
+
+	//restrict : 최적화를 도와줌
+
+	int ar[10] = { 1,2,3,4,5,6,7,8,9,10 };
+	int* par = ar;
+
+	int* __restrict restar = (int*)malloc(10 * sizeof(int));
+	if (!restar) exit(1);
+
+	ar[0] += 3;
+	par[0] += 5;
+	// par[0] += 8; // restric을 해준 변수가 아니기 때문에 접근하지 못하고 최적화하지 못함
+
+	restar[0] += 3;
+	restar[0] += 5;
+	//restar[0] += 8; 최적화 해줌
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
