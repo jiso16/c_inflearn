@@ -21,7 +21,7 @@ int main(int argc, char* argv[])
 		fwrite(&d, sizeof(d), 1, fp);
 		fwrite(&n, sizeof(n), 1, fp);
 		fwrite(parr, sizeof(int), 1, fp);
-		
+
 		fclose(fp);
 		fclose(parr);
 	}
@@ -61,4 +61,5 @@ int main(int argc, char* argv[])
 		fclose(fp);
 
 	}
+	return 0;
 }
